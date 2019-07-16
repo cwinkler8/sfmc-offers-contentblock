@@ -56,7 +56,7 @@ $(document).ready(function(){
 								  <div class="slds-form-element__control">
 								    <div class="slds-select_container">
 								      <select class="slds-select" id="dename">
-								        <option value="Unselected">Please select offer</option>`;
+								        <option value="Unselected">Please select an offer</option>`;
 
 	        res.forEach(function (item) {
 					    output+=`<option value="${item}">${item}</option>`
