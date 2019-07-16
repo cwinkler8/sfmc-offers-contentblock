@@ -52,11 +52,11 @@ $(document).ready(function(){
              
             let output = `
 							 	<div id="replaceable">
-								  <label class="slds-form-element__label" for="select-01">Voucher selection</label>
+								  <label class="slds-form-element__label" for="select-01">Offer selection</label>
 								  <div class="slds-form-element__control">
 								    <div class="slds-select_container">
 								      <select class="slds-select" id="dename">
-								        <option value="Unselected">Please select voucher</option>`;
+								        <option value="Unselected">Please select offer</option>`;
 
 	        res.forEach(function (item) {
 					    output+=`<option value="${item}">${item}</option>`
